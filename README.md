@@ -96,11 +96,11 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Graciano Henrique**
 
 - GitHub: [@Graciano1997](https://github.com/Graciano1997/)
-
-👤 **Author**
+- Twitter: [@OGracianoHenrique](https://twitter.com/GracianoSoft)
+- LinkedIn: [@GracianoHenrique](www.linkedin.com/in/gracianohenrique)
 
 👤 **Maurice Coker**
 - GitHub: [@coker2019](https://github.com/coker2019)
