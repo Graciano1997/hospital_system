@@ -57,3 +57,7 @@ CONSTRAINT fk_treatment
 FOREIGN KEY(treatment_id)
 REFERENCES treatments(id)
 );
+
+CREATE INDEX idx_fk_patient ON medical_histories(patient_id);
+
+CREATE INDEX idx_fk_treatment ON medical_histories_link_treatments(treatment_id)
