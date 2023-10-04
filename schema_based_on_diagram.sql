@@ -43,3 +43,17 @@ FOREIGN KEY(medical_history_id)
 REFERENCES medical_histories(id)
 );
 
+CREATE TABLE IF NOT EXISTS invoice_items (
+id SERIAL PRIMARY KEY,
+unit_price decimal,
+quantity int,
+total_price decimal,
+invoice_id int,
+treatment_id int,
+CONSTRAINT fk_invoice
+FOREIGN KEY(invoice_id)
+REFERENCES invoices(id),
+CONSTRAINT fk_treatment
+FOREIGN KEY(treatment_id)
+REFERENCES treatments(id)
+);
