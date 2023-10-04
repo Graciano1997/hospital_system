@@ -99,9 +99,13 @@ Example command:
 👤 **Author**
 
 - GitHub: [@Graciano1997](https://github.com/Graciano1997/)
+
 👤 **Author**
 
-- GitHub: [@Maurice](https://github.com/coker2019/)
+👤 **Maurice Coker**
+- GitHub: [@coker2019](https://github.com/coker2019)
+- Twitter: [@Olabisi_coker](https://twitter.com/Olabisi_coker)
+- LinkedIn: [maurice-coker-174b129b](https://linkedin.com/in/maurice-coker-174b129b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
