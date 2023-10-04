@@ -30,3 +30,16 @@ CONSTRAINT fk_history
 FOREIGN KEY(medical_history_id)
 REFERENCES medical_histories(id)
 );
+
+
+CREATE TABLE IF NOT EXISTS invoices (
+id SERIAL PRIMARY KEY,
+total_amount decimal,
+generated_at timestamp,
+payed_at timestamp,
+medical_history_id int,
+CONSTRAINT fk_history
+FOREIGN KEY(medical_history_id)
+REFERENCES medical_histories(id)
+);
+
