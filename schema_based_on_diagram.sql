@@ -14,3 +14,9 @@ FOREIGN KEY (patient_id)
 REFERENCES patients(id)
 );
 
+CREATE TABLE IF NOT EXISTS treatments (
+id SERIAL PRIMARY KEY,
+type varchar(200),
+name varchar(200)
+);
+
