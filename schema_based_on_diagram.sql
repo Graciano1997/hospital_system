@@ -20,3 +20,13 @@ type varchar(200),
 name varchar(200)
 );
 
+CREATE TABLE IF NOT EXISTS medical_histories_link_treatments (
+medical_history_id int,
+treatment_id int,
+CONSTRAINT fk_treatment
+FOREIGN KEY(treatment_id)
+REFERENCES treatments(id),
+CONSTRAINT fk_history
+FOREIGN KEY(medical_history_id)
+REFERENCES medical_histories(id)
+);
